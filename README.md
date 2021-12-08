@@ -4,6 +4,8 @@ Integrantes:
   -Hernández Huizar Jhonatan Adrián
   -Vázquez Martínez Edgar Isaías
 
+Link del video: https://drive.google.com/file/d/1B020iHfS-H29GwXhS5on7YGSROpV5Tun/view?usp=sharing 
+
 El primer paso para crear una blockchain propia utilizando python es descargar Anaconda de la página oficial: https://anaconda.org/ , haciendo click en "Download Anaconda" y "Download", en este caso será la versión más actual de 64-bit para Windows.
 ![image](https://user-images.githubusercontent.com/70983585/145254001-f4a502df-d58c-41a8-8c1c-c8c8d3e6b7db.png)
 
