@@ -18,4 +18,14 @@ Como último preparativo, necesitamos instalar la API de Postman desde el sitio 
 Ya con todo lo anterior podemos utilizar los srcipts de python llamados: amlopesos_5001, amlopesos_5002 y amlopesos_5003 los cuales simbolizan nodos de nuestra blockchain, cada uno con la capacidad de conectarse a los demás, apuntar hacia el nodo anterior guardar o añadir una chain a la cadena, encriptarla, etc. Una vez abiertos en Spyder los ejecutamos seleccionando todo el código y con el shortcut "ctrl + enter", abriendo una terminal de spyder por nodo, probablemente aparezca un mensaje para dar permiso al cual daremos acceso y todo esto con postman abierto.}
 ![image](https://user-images.githubusercontent.com/70983585/145259271-994d0868-5074-4275-8371-2992ee51774a.png)
 
+Como último paso podemos enlazar nuestra blockchain desde postman, en programas más complejos hay scripts en el backend que se encargan de esto y la encriptación de cada chain es mucho más compleja. 
+En postman abrimos tres pestañas una para cada nodo que representa una persona o equipo de la red desantralizada, escribimos el url de cada nodo: http://127.0.0.1:5001/ , http://127.0.0.1:5002/ y http://127.0.0.1:5003/ . Añadiendo "get_chain" obtenemos una chain del nodo y comprobamos que esta funcionando.
+![image](https://user-images.githubusercontent.com/70983585/145260693-7e2237b4-3fd2-4068-bb9f-58ebbc16cf33.png)
+
+Para descetralizar nuestra red cambiamos de GET a POST usando Body y raw para enviar el nodes.json el cual contiene las direcciones de todos los nodos de nuestra red de la siguiente forma:
+![image](https://user-images.githubusercontent.com/70983585/145261029-df384853-82ac-4cde-a0e7-568e9b03b6c0.png)
+
+
+Con mine_block, podemos minar un bloque desde el nodo donde estemos, con get_chain podemos visualizar la blockchain que hemos creado.
+![image](https://user-images.githubusercontent.com/70983585/145261845-9655b2a1-75d0-4e45-86e1-34e24bbc1a14.png)
 
